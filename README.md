@@ -1,6 +1,6 @@
 # RAMPSDC
 RAMPS Due Converter. 
-See the Wiki here: http://reprap.org/wiki/RAMPSSB (still working on it)
+See the Wiki here: http://reprap.org/wiki/RAMPSDC (still working on it)
 
 Goes between a standard 5V RAMPS, and a 3.3V Arduino Due. Uses the Vin from the RAMPS board to power the 5V rail, and then uses that 5V supply to power pins on the RAMPS, allowing more current for the Heater and Servo pins outputs. 
 Steps down voltage of the X Max, Y max, Y min, Xmin, and Z min endstops (The Z MAX Enstop is unconnected), so they dont damage the Due, and a 5V-3.3V voltage divider is used to propotionally drop the voltage of the Thermistors.
